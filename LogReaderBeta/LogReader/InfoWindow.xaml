@@ -1,0 +1,20 @@
+﻿<Window x:Name="InfoWindow1" x:Class="LogReader.InfoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LogReader"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        Title="LogReader V 0.4.5" Height="662.295" Width="1043.849" Icon="Cursor1.cur" Cursor="Cursor1.cur">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="144" VerticalAlignment="Top" Width="1036" Source="Logo_web_2.png"/>
+        <TextBox x:Name="InfoBox" Cursor="Cursor1.cur" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="487" Margin="0,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="1036" BorderBrush="#FF673AB7" Background="Black"/>
+
+    </Grid>
+</Window>
