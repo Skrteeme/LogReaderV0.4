@@ -4,6 +4,8 @@ namespace LogReader
 {
     public class DeviceInfo
     {
+
+
         public DeviceInfo()
         {
 
